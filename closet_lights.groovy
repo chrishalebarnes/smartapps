@@ -30,7 +30,7 @@ def updated() {
 
 def initialize() {
 	subscribe(firstDoor, "contact", firstDoorHandler)
-  subscribe(secondDoor, "contact", secondDoorHandler)
+  	subscribe(secondDoor, "contact", secondDoorHandler)
 }
 
 def firstDoorHandler(evt) {
